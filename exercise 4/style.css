@@ -1,0 +1,23 @@
+.nauan {
+  background-color: darkgrey;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.profile_nauan {
+}
+.suggest {
+  color: white;
+}
+img {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+}
+li {
+  list-style: none;
+}
+a {
+  color: black;
+}

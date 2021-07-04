@@ -1,0 +1,30 @@
+div {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+u {
+  font-size: 30px;
+  color: #0000ff;
+  margin-bottom: 13px;
+}
+span {
+  font-size: 30px;
+  color: #006600;
+  text-align: center;
+  font-weight: 700;
+}
+h1 {
+  text-align: center;
+  background-color: #fecffd;
+  margin-bottom: 20px;
+  color: #ff3399;
+}
+i {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  background-color: #ffffcc;
+  text-align: center;
+}
