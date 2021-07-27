@@ -1,0 +1,38 @@
+.responsive {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+.table {
+  background-color: white;
+  width: 20%;
+  height: 80px;
+  margin: 10px;
+}
+.in-table {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 620px) {
+  .responsive {
+    display: flex;
+    flex-direction: column;
+    background-color: palevioletred;
+  }
+  .in-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 620px) {
+  .responsive {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+  }
+}

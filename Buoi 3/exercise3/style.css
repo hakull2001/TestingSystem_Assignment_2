@@ -1,0 +1,62 @@
+.header {
+  background-color: rebeccapurple;
+  height: 100px;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 70vh;
+  width: 100%;
+  padding: 8px;
+}
+.left-middle {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.right-middle {
+  height: 100%;
+  background-color: aqua;
+  width: 20%;
+}
+.table {
+  background-color: aqua;
+  height: 50px;
+}
+.footer {
+  background-color: rgb(0, 174, 255);
+  width: 100%;
+  height: 68px;
+}
+@media only screen and (max-width: 800px) and (min-width: 620px) {
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-middle {
+    width: 100%;
+    height: 120px;
+  }
+  .table {
+    height: 30px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .left-middle {
+    width: 100%;
+  }
+  .table {
+    height: 20px;
+  }
+  .right-middle {
+    width: 100%;
+    height: 100px;
+  }
+}

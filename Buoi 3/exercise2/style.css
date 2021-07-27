@@ -1,0 +1,36 @@
+.responsive {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+.green,
+.blue {
+  display: none;
+}
+
+@media only screen and (max-width: 620px) {
+  .responsive {
+    background-color: green;
+  }
+  .red {
+    display: none;
+  }
+  .green {
+    display: block;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 620px) {
+  .responsive {
+    background-color: blue;
+  }
+  .red {
+    display: none;
+  }
+  .blue {
+    display: block;
+  }
+}
